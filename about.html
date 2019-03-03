@@ -1,0 +1,196 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>About Semantic UI</title>
+    <link rel="stylesheet" type="text/css" href="semantic.min.css"">
+    <link rel="stylesheet" type="text/css" href="aboutstyles.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="semantic.min.js"></script>
+    <script>
+      $(document)
+        .ready(function() {
+
+          $('.main.menu').visibility({
+            type: 'fixed'
+          });
+          $('.overlay').visibility({
+            type: 'fixed',
+            offset: 80
+          });
+
+          $('.image').visibility({
+            type: 'image',
+            transition: 'vertical flip in',
+            duration: 500
+          });
+
+          $(".main.menu  .ui.dropdown").dropdown({
+            on: 'hover'
+          });
+        })
+      ;
+    </script>
+  </head>
+  <body cz-shortcut-listen="true">
+
+    <div class="ui main text container">
+      <h1 class="ui header">About Semantic UI</h1>
+      <p>This is an example made with Semantic UI framework</p>
+    </div>
+    <div class="ui borderless main menu" style="">
+      <div class="ui text container">
+        <div class="header item">
+          <img class="logo" src="images/logo.png">
+        </div>
+        <a href="https://semantic-ui.com/" class="item">Semantic UI official website</a>
+        <a href="index.html" class="item">Home</a>
+        <a href="#" class="ui right floated dropdown item" tabindex="0">
+          Example Dropdown <i class="dropdown icon"></i>
+           <div class="menu" tabindex="-1">
+              <div class="item">Link Item</div>
+              <div class="item">Link Item</div>
+              <div class="divider"></div>
+              <div class="header">Header Item</div>
+              <div class="item">
+                  <i class="dropdown icon"></i>
+                  Sub Menu
+                  <div class="menu">
+                    <div class="item">Link Item</div>
+                    <div class="item">Link Item</div>
+                  </div>
+              </div>
+              <div class="item">Link Item</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="ui borderless main menu placeholder" style="display: none;">
+      <div class="ui text container">
+        <div class="header item">
+          <img class="logo" src="logo.png">
+          Project Name
+        </div>
+        <a href="index.html" class="item">Home</a>
+        <a href="login.html" class="item">Login</a>
+        <a href="#" class="ui right floated dropdown item" tabindex="0">
+          Dropdown <i class="dropdown icon"></i>
+           <div class="menu" tabindex="-1">
+              <div class="item">Link Item</div>
+              <div class="item">Link Item</div>
+              <div class="divider"></div>
+              <div class="header">Header Item</div>
+              <div class="item">
+                <i class="dropdown icon"></i>
+                Sub Menu
+                <div class="menu">
+                  <div class="item">Link Item</div>
+                  <div class="item">Link Item</div>
+                </div>
+              </div>
+              <div class="item">Link Item</div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <div class="ui text container">
+      <p>
+        <h3>Design Beautiful Websites Quickly</h3>
+        Semantic is a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
+      </p>
+      <p>
+        <h3>Concise HTML</h3>
+        Semantic UI treats words and classes as exchangeable concepts.
+        Classes use syntax from natural languages like noun/modifier relationships, word order, and plurality to link concepts intuitively.
+        Get the same benefits as BEM or SMACSS, but without the tedium.
+      </p>
+      <div class="overlay" style="">
+        <div class="ui labeled icon vertical menu">
+          <a class="item" href="https://twitter.com/?lang=en"><i class="twitter icon"></i>Twitter</a>
+          <a class="item" href="https://www.facebook.com/"><i class="facebook icon"></i>Facebook</a>
+          <a class="item" href="https://overview.mail.yahoo.com/"><i class="mail icon"></i>E-mail</a>
+        </div>
+      </div>
+      <div class="overlay placeholder" style="display: none;">
+        <div class="ui labeled icon vertical menu">
+          <a class="item"><i class="twitter icon"></i> Tweet</a>
+          <a class="item"><i class="facebook icon"></i> Share</a>
+          <a class="item"><i class="mail icon"></i> E-mail</a>
+        </div>
+      </div>
+      <p>
+        <h3>Intuitive Javascript</h3>
+        Semantic uses simple phrases called behaviors that trigger functionality.
+        Any arbitrary decision in a component is included as a setting that developers can modify.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sed dui sapien. Suspendisse porttitor semper tellus, at lacinia massa aliquet ac. Proin tempor odio vel consequat faucibus. Proin eget enim tincidunt, aliquet risus vitae, consequat mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed nec libero dapibus, bibendum ante ut, tristique odio. Integer cursus sit amet justo ut finibus.</p>
+      <p>
+      Suspendisse pretium metus elit, vel aliquam mi lobortis sed. In eget orci luctus risus tincidunt rutrum. Vestibulum posuere sapien sit amet fermentum consectetur. Morbi posuere leo eu sagittis egestas. Integer leo diam, placerat vitae orci vel, pretium venenatis nunc. Praesent interdum velit ut ornare tincidunt. Sed sit amet consequat ipsum. Donec rhoncus urna a feugiat rhoncus.</p>
+
+      <p>Duis nec pellentesque nunc. Proin hendrerit ullamcorper augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse dapibus gravida nulla. Pellentesque ornare ac felis scelerisque fermentum. Phasellus mattis nulla semper nisi mattis cursus. Duis faucibus erat vel efficitur imperdiet. Donec pharetra malesuada lorem, quis malesuada augue faucibus eget. Pellentesque vestibulum id sapien eu ullamcorper. Nam nunc lectus, consectetur vitae dictum quis, pulvinar sit amet risus. Nulla massa augue, viverra a odio ac, condimentum fermentum arcu. Duis vehicula tempor massa finibus consectetur.
+      </p>
+      <img class="ui medium left floated image transition visible" data-src="images/js.png" src="images/js.png">
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+      <img class="ui medium right floated image transition visible" data-src="images/debug.jpg" src="images/debug.jpg">
+      Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <p>
+        <h3>Simplified Debugging</h3>
+      Performance logging lets you track down bottlenecks without digging through stack traces.</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <img class="ui medium left floated image transition visible" data-src="images/logo2.png" src="images/logo2.png">
+      <p>
+        <h3>Unbelievable Theming</h3>
+      Semantic comes equipped with an intuitive inheritance system and high level theming variables that let you have complete design freedom.
+      Develop your UI once, then deploy with the same code everywhere.</p>
+      <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+      <img class="ui medium right floated image transition visible" data-src="images/theme.png" src="images/theme.png">
+      Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+      <p>Aenean blandit mollis dolor, at molestie quam eleifend quis. Quisque est neque, tempus quis est sed, lobortis condimentum diam. Pellentesque ac libero a metus fermentum elementum. Maecenas imperdiet urna et quam imperdiet venenatis. Maecenas vestibulum vel elit ac fermentum. Maecenas quis tellus eget enim tincidunt convallis ut sit amet metus. Curabitur neque dui, venenatis eu magna id, euismod iaculis eros. Ut ac risus tempor, imperdiet risus sit amet, luctus nulla. Ut commodo luctus consectetur. Maecenas non est ut sem volutpat ullamcorper. Fusce vitae tellus sed ex sollicitudin elementum. Sed felis magna, gravida at nulla laoreet, rhoncus lacinia risus.</p>
+    </div>
+    <div class="ui inverted vertical footer segment">
+      <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+          <div class="three wide column">
+            <h4 class="ui inverted header">Some links</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Some more links</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="three wide column">
+            <h4 class="ui inverted header">Even more links</h4>
+            <div class="ui inverted link list">
+              <a href="#" class="item">Link One</a>
+              <a href="#" class="item">Link Two</a>
+              <a href="#" class="item">Link Three</a>
+              <a href="#" class="item">Link Four</a>
+            </div>
+          </div>
+          <div class="seven wide column">
+          
+          </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <img src="images/logo.png" class="ui centered mini image">
+        <div class="ui horizontal inverted small divided link list">
+          <a class="item" href="#">Site Map</a>
+          <a class="item" href="#">Contact Us</a>
+          <a class="item" href="#">Terms and Conditions</a>
+          <a class="item" href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
